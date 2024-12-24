@@ -26,7 +26,7 @@ class CategoryController extends Controller
 
         return redirect()
             ->route('admin.categories.index')
-            ->with('success', 'Category created successfully.');
+            ->with('success', 'Categoria criada com sucesso.');
     }
 
     public function edit(Category $category): View
